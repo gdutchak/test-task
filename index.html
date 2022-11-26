@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>تطوير الاعمال</title>
+</head>
+<body>
+        <section class="business">
+            <div class="container">
+            <svg class="business__logo" width="170" height="40">
+                <use href="./images/svg-sprite.svg#icon-logo"></use>
+            </svg>
+            <h1 class="business__title">هل تطمح للتداول باحترافية
+                <span class="business__title business__title--attention">من فضلك تداول بمعرفة</span>
+            </h1>
+            <h1 class="desktop-business__title">هل تطمح للتداول باحترافية
+                <span class="desktop-business__title desktop-business__title--attention"> من فضلك تداول بمعرفة</span>
+            </h1>
+            <form class="form">
+                <h2 class="form__title">أرسل بياناتك اليوم لتحصل على خدمتنا المجانية المُبتكرة</h2>
+                <input type="name" name="name"  placeholder="ali" required class="form__info">
+                <input type="email" name="email"  placeholder="ali@arabic.co.ae" required class="form__info"> 
+                <input type="password" name="password"  placeholder="الهاتف" required class="form__info">
+                <label class="form__conditions" for="checkbox">
+                    نشرة اسبوعية وعروض خاصة وتحديثات مستمرة
+                </label>
+                    <svg class="form__checkbox" width="15" height="15">
+                        <use href="./images//svg-sprite.svg#icon-checkmark"></use>
+                    </svg>
+                    <input type="checkbox" name="checkbox" required class="form__checkbox visually-hidden" id="checkbox">
+                
+                <button type="submit" class="form__button">سجل الآن</button>
+            </form>
+        </div>
+        </section>
+
+        <section class="statistic">
+            <div class="container">
+            <ul class="statistic__list">
+                <li class="statistic__item statistic__item--first">
+                    خدمة مجانية
+                </li>
+                <li class="statistic__item statistic__item--second">
+                    توصيات شهرية
+                </li>
+                <li class="statistic__item statistic__item--third">
+                    دقة التوصيات
+                </li>
+            </ul>
+            <p class="statistic__desc">النجاح في سوق الأوراق المالية هو بالأساس نتاج طبيعي لاستفادتنا من خبرات بعضنا البعض</p>
+        </div>
+        </section>
+    
+        <section class="benefits">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <svg class="benefits__icon" height="65" width="45">
+                            <use href="./images/svg-sprite.svg#icon-bonus"></use>
+                        </svg>
+                        <h3 class="benefits__title">العملات الرقمية</h3>
+                        <p class="benefits__desc">اكتشف عالم جديد من العملات الرقمية البيتكوين، اإإيثوريوم وغيرها الكثير من أفضل العملات</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <svg class="benefits__icon" width="45" height="60">
+                            <use href="./images/svg-sprite.svg#icon-money"></use>
+                        </svg>
+                        <h3 class="benefits__title">العملات الاجنيبة</h3>
+                        <p class="benefits__desc">استكشف أكبر سوق مالي في العالم. تداول أزواج العملات الرئيسية والناشئة المتوفرة على منصاتنا.</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <svg class="benefits__icon" width="70" height="62">
+                            <use href="./images/svg-sprite.svg#icon-path"></use>
+                        </svg>
+                        <h3 class="benefits__title">المعادن</h3>
+                        <p class="benefits__desc">تنويع محفظتك مع المعادن مثل الذهب (الأكثر نشاطا في العالم) وكذلك الفضة والنحاس</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <svg class="benefits__icon" width="82" height="48">
+                            <use href="./images/svg-sprite.svg#icon-speed"></use>
+                        </svg>
+                        <h3 class="benefits__title">المؤشرات</h3>
+                        <p class="benefits__desc">مؤشرات الأسهم العالمية في الولايات المتحدة وأوروبا وغيرها من المؤشرات</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <svg class="benefits__icon" width="80" height="54">
+                            <use href="./images/svg-sprite.svg#icon-delivery"></use>
+                        </svg>
+                        <h3 class="benefits__title">السلع</h3>
+                        <p class="benefits__desc">قم بالتداول في السلع الدائمة مثل النفط القمح، السكر والقهوة</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <svg class="benefits__icon" width="70" height="62">
+                            <use href="./images/svg-sprite.svg#icon-path"></use>
+                        </svg>
+                        <h3 class="benefits__title">الاسهم</h3>
+                        <p class="benefits__desc">اختر من بين أكثر من 450 سهم للتداول في السوق العالمية</p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+        </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./index.js"></script>
+</body>
+</html>
