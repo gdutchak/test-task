@@ -208,6 +208,7 @@ cursor: pointer;
 }
 .swiper {
     padding-bottom: 40px;
+    max-width: 332px;
 }
 .swiper-slide {
     padding: 38px 10px 30px;
