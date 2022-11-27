@@ -1,17 +1,13 @@
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
-    // loop: true,
-  
+    initialSlide: 2,
+    spaceBetween: 15,
+    centeredSlides: true,
+    width: 280,
+    slidesOffsetBefore: 25,
+
     pagination: {
       el: '.swiper-pagination',
-    },
-    // breakpoints: {
-    //   360: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        initialSlide: 0,
-        centeredSlides: true,
-        centerInsufficientSlides: true,
-        centeredSlidesBounds: true,
-    //   }}
-  });
+      clickable: true,
+    },       
+  })
